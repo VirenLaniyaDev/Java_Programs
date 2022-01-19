@@ -1,0 +1,10 @@
+1.javac [filename].java		=> create class file from java file (Compiler)
+2.java [filename]		=> Execute class file (Interpreter)
+3.java -d [directory] [filename].java	=> -d switch specifies the destination where to put the generated class file.
+					=> first create directory (directory name is same as we entered)
+					=> Inside this directory create package (package name = as per assign in java program file).
+					=> Inside this package create class file of perticular package.   
+4.java -d . [filename].java	=> If you want to keep the package within the same directory, you can use . (dot).
+				=> In other word there is no create directory anymore. directly create package in working directory.
+5. ..................*.java	=> If you want to create packages in for all java program file then you can use * instead of [filename].
+6.java [packagename].[filename] => For execute the class file.
