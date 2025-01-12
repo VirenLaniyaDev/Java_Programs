@@ -43,7 +43,7 @@ class ComparatorLogic3 implements Comparator<Integer> {
     }
 }
 
-public class _3_TheComparatorInterface_CF {
+public class _3_1_TheComparatorInterface_CF {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(10, 20, 15, 40, 30, 35, 25);
 
